@@ -1,21 +1,18 @@
 {
   "name": "@dzaq/fsmon",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "fsmon tracks any changes in your nodejs file and automatically restarts the server without using chokidar package.",
   "main": "fsmon.js",
   "scripts": {},
   "type": "module",
-  "bin": {
-    "fsmon": "./fsmon.js"
+  "bin": "fsmon.js",
+  "engines": {
+    "node": ">=10"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/devzaq/fsmon-npm-package.git"
   },
-  "keywords": [
-    "fsmon",
-    "dz"
-  ],
   "author": "Ankit Jha",
   "license": "ISC",
   "bugs": {
